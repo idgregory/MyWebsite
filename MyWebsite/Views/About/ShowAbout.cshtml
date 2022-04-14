@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "About Me";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowAbout</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card" @*style="width: 18rem;"*@>
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub Account</h5>
+                        <a href="https://github.com/idgregory" class="btn btn-primary">Go</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" @*style="width: 18rem;"*@>
+                    <div class="card-body">
+                        <h5 class="card-title">Resume</h5>
+                        <a href="~/Content/Resume.txt" download="Resume_Ian Gregory.txt" class="btn btn-primary">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
